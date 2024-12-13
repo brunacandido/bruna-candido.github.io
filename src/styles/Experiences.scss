@@ -1,0 +1,67 @@
+.experiences {
+    padding: 50px;
+    background-color: #263238;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 2px solid #0099ff;
+  
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #00bcd4;
+    }
+  
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .experience-item {
+      width: 80%;
+      padding: 20px;
+      background-color: #455a64;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: left;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+  
+      &.current {
+        background-color: #37474f; /* Fundo diferente para destacar experiências atuais */
+        border-left: 5px solid #00ffcc;
+      }
+  
+      .experience-logo {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        display: block;
+      }
+  
+      .experience-details {
+        h3 {
+          font-size: 1.5rem;
+          color: #00bcd4;
+          margin-bottom: 10px;
+        }
+  
+        .role,
+        .period,
+        .location {
+          color: #b0bec5;
+          font-size: 1rem;
+        }
+  
+        .extra-details {
+          margin-top: 15px;
+          padding-top: 10px;
+          border-top: 1px solid #0099ff;
+          color: #b0bec5;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,85 @@
+.education {
+  padding: 50px;
+  background-color: #263238;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid #0099ff;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #00bcd4;
+  }
+
+  .timeline {
+    position: relative;
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 2px;
+      height: 100%;
+      background-color: #0099ff;
+      transform: translateX(-50%);
+    }
+  }
+
+  .education-item {
+    position: relative;
+    width: 45%;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    background-color: #455a64;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    
+    &:hover {
+      background-color: #607d8b;
+      transform: scale(1.05);
+    }
+
+    &.left {
+      align-self: flex-start;
+      margin-right: 55%; /* Offset para alinhar à esquerda */
+    }
+
+    &.right {
+      align-self: flex-end;
+      margin-left: 55%; /* Offset para alinhar à direita */
+    }
+
+    .university-logo {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .education-details {
+      h3 {
+        color: #00bcd4;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        text-align: center;
+      }
+
+      p {
+        color: #b0bec5;
+        font-size: 1rem;
+        margin: 5px 0;
+        text-align: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.skills {
+    padding: 50px;
+    width: 100%;
+    // background-color: #263238; /* Fundo escuro */
+    color: #ffffff; /* Texto branco */
+    text-align: center;
+    border-radius: 10px;
+    border-bottom: 2px solid #0099ff;
+    background-color: #37474f;
+
+  }
+  
+  .skills h2 {
+    color: #00bcd4; /* Azul claro para o título */
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centraliza os itens */
+    gap: 30px;
+  }
+  
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 120px; /* Largura fixa para as habilidades */
+  }
+  
+  .skill h3 {
+    color: #b0bec5; /* Cor mais suave para o nome da habilidade */
+    font-size: 1.2rem;
+  }
+  
+  .skill-logo {
+    width: 60px; /* Tamanho das logos */
+    height: 60px;
+    object-fit: contain; /* Garante que a logo seja exibida de forma proporcional */
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-logo:hover {
+    transform: scale(1.1); /* Efeito de hover, aumenta a logo */
+  }
+  

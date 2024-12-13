@@ -1,0 +1,40 @@
+.projects {
+  padding: 50px;
+  // background-color: #263238;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap; /* Permite quebra de linha caso não caiba na tela */
+  justify-content: center; /* Centraliza os itens */
+
+  .project {
+    background-color: #607d8b;
+    padding: 20px;
+    margin: 10px; /* Espaçamento entre os itens */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 45%; /* Define a largura dos itens para 45% */
+    max-width: 400px; /* Define uma largura máxima para manter a responsividade */
+
+    h3 {
+      color: #00bcd4;
+      font-size: 1.5rem;
+    }
+
+    p {
+      color: #b0bec5;
+      font-size: 1rem;
+    }
+
+    &:hover {
+      background-color: #455a64;
+      transform: scale(1.05);
+      transition: all 0.3s ease-in-out;
+    }
+  }
+}
+
+.border-bottom {
+  border-bottom: 2px solid #0099ff;
+}

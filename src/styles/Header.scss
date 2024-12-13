@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 10px 20px; /* Ajuste para tornar a barra mais fina */
+  background-color: #1e1e1e;
+  color: #ffffff;
+
+  .logo {
+    font-size: 1.6rem; /* Reduzido o tamanho da logo */
+    font-weight: bold;
+    color: #00bcd4;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+
+  nav li {
+    margin: 0 15px; /* Reduzi o espaço entre os itens */
+  }
+
+  nav a {
+    color: #e0f7fa;
+    font-size: 1rem;
+  }
+
+  nav a:hover {
+    color: #0099ff;
+  }
+}
+
+.about {
+  width: 100%;
+  padding: 50px;
+  background-color: #37474f;
+  color: #ffffff;
+  text-align: center;
+  border-bottom: 2px solid #0099ff;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00bcd4;
+}
+
+.about p {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #b0bec5;
+}
+

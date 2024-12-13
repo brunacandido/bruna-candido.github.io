@@ -1,0 +1,44 @@
+/* Home.scss */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #121212; /* Fundo escuro */
+  color: #f0f0f0;
+  padding: 20px;
+  width: 100;
+}
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;  /* Espaçamento entre a imagem e o texto */
+}
+
+.home-image {
+  width: 300px;  /* Tamanho da imagem aumentado */
+  height: 300px; /* Tamanho da imagem aumentado */
+  object-fit: cover; /* Ajusta a imagem para cobrir a área sem distorcer */
+  border-radius: 50%; /* Torna a imagem redonda */
+  transition: transform 0.3s ease-in-out;  /* Transição suave no efeito de hover */
+}
+
+.home-image:hover {
+  transform: scale(1.1);  /* Aumenta a imagem quando passar o mouse */
+}
+
+.text-content {
+  max-width: 500px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: lighter;
+}

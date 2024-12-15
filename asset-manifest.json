@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/bruna-candido.github.io/static/css/main.379c1772.css",
-    "main.js": "/bruna-candido.github.io/static/js/main.ef9cb67b.js",
+    "main.css": "/bruna-candido.github.io/static/css/main.d5a5f933.css",
+    "main.js": "/bruna-candido.github.io/static/js/main.adecec37.js",
     "static/js/453.1407b060.chunk.js": "/bruna-candido.github.io/static/js/453.1407b060.chunk.js",
     "static/media/co_founded_EU.jpg": "/bruna-candido.github.io/static/media/co_founded_EU.b98356d2c094a719a356.jpg",
     "static/media/bruna-photo.jpg": "/bruna-candido.github.io/static/media/bruna-photo.762707309d93ab97e61e.jpg",
+    "static/media/ufsc.png": "/bruna-candido.github.io/static/media/ufsc.078718683f78205366fa.png",
+    "static/media/matlab.png": "/bruna-candido.github.io/static/media/matlab.5ae8d3181367b6b2272c.png",
+    "static/media/gee.png": "/bruna-candido.github.io/static/media/gee.99df486d7496c5677692.png",
     "static/media/plus_logo.jpg": "/bruna-candido.github.io/static/media/plus_logo.d950150375ed9dd52fe6.jpg",
-    "static/media/python_logo.png": "/bruna-candido.github.io/static/media/python_logo.c828af7d0a97f43e991f.png",
-    "static/media/ufsc.jpg": "/bruna-candido.github.io/static/media/ufsc.16ca9b4b72b8f5495aed.jpg",
-    "static/media/qgis.webp": "/bruna-candido.github.io/static/media/qgis.8963c021f7b409faa9ed.webp",
-    "static/media/javaScript.webp": "/bruna-candido.github.io/static/media/javaScript.627ed864bdde176c4766.webp",
+    "static/media/qgis.png": "/bruna-candido.github.io/static/media/qgis.ec284fae3639d3a1e286.png",
+    "static/media/arcgispro.png": "/bruna-candido.github.io/static/media/arcgispro.d449e64a03bb4b56456f.png",
+    "static/media/python.png": "/bruna-candido.github.io/static/media/python.9d114436bed1077668ac.png",
+    "static/media/react.png": "/bruna-candido.github.io/static/media/react.3b5049ea7908e9da3ba0.png",
+    "static/media/javascript.png": "/bruna-candido.github.io/static/media/javascript.e4a6603a50d997ebe438.png",
     "index.html": "/bruna-candido.github.io/index.html",
-    "main.379c1772.css.map": "/bruna-candido.github.io/static/css/main.379c1772.css.map",
-    "main.ef9cb67b.js.map": "/bruna-candido.github.io/static/js/main.ef9cb67b.js.map",
+    "main.d5a5f933.css.map": "/bruna-candido.github.io/static/css/main.d5a5f933.css.map",
+    "main.adecec37.js.map": "/bruna-candido.github.io/static/js/main.adecec37.js.map",
     "453.1407b060.chunk.js.map": "/bruna-candido.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.379c1772.css",
-    "static/js/main.ef9cb67b.js"
+    "static/css/main.d5a5f933.css",
+    "static/js/main.adecec37.js"
   ]
 }

@@ -14,20 +14,21 @@ interface EducationItem {
 }
 
 const educationData: EducationItem[] = [
-  {
-    logo: plusLogo,
-    university: 'Paris Lodron University of Salzburg',
-    degree: 'Copernicus Master in Digital Earth',
-    period: '2024 - 2026',
-    location: 'Salzburg, Austria',
-    position: 'left',
-  },
+  
   {
     logo: ubsLogo,
     university: 'Université Bretagne Sud',
     degree: 'Copernicus Master in Digital Earth',
     period: '2025 - 2026',
     location: 'Vannes, France',
+    position: 'left',
+  },
+  {
+    logo: plusLogo,
+    university: 'Paris Lodron University of Salzburg',
+    degree: 'Copernicus Master in Digital Earth',
+    period: '2024 - 2026',
+    location: 'Salzburg, Austria',
     position: 'left',
   },
   {

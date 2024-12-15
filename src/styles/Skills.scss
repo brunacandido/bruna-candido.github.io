@@ -17,8 +17,13 @@
     width: 90%;
     background-color: #37474f;
     border-radius: 10px;
-    overflow: hidden;
     padding: 20px;
+    overflow: hidden;
+    position: relative;
+  
+    &:hover {
+      overflow: auto;
+    }
   }
   .skills-block {
     display: flex;

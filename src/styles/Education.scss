@@ -4,7 +4,6 @@
   color: #ffffff;
   width: 100%;
   text-align: center;
-  border-bottom: 2px solid #0099ff;
 
   h2 {
     font-size: 2rem;
@@ -49,21 +48,26 @@
 
     &.left {
       align-self: flex-start;
-      margin-right: 55%; /* Offset para alinhar à esquerda */
+      margin-right: 55%;
     }
 
     &.right {
       align-self: flex-end;
-      margin-left: 55%; /* Offset para alinhar à direita */
+      margin-left: 55%; 
     }
 
     .university-logo {
-      width: 50px;
-      height: 50px;
+      width: 100px;
+      height: 100px;
       margin-bottom: 15px;
       border-radius: 5px;
       display: block;
       margin: 0 auto;
+      object-fit: contain;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     .education-details {
@@ -75,7 +79,7 @@
       }
 
       p {
-        color: #b0bec5;
+        color: #eff3f5;
         font-size: 1rem;
         margin: 5px 0;
         text-align: center;

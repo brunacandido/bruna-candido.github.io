@@ -6,7 +6,7 @@ const About: React.FC = () => {
     <section id="about" className="about">
       <h2>About Me</h2>
       <p>
-        I'm Bruna Cândido, an oceanographer and software developer. I have a strong passion for technologies
+        I'm Bruna, an oceanographer and software developer. I have a strong passion for technologies
         that help analyze and process environmental data.
       </p>
       <p>

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/Tabs.scss';  // Certifique-se de importar o CSS corretamente
+import '../styles/Tabs.scss';
 import MasterProgram from './MasterProgram';
 import Projects from './Projects';
 
@@ -11,14 +11,14 @@ function Tabs() {
   };
 
   return (
-    <section id="master-program" className="master-program border-bottom">
+    <section id="master-program-tabs" className="master-program border-bottom">
       <h2>Copernicus in Digital Earth Joint Master</h2>
 
       <div className="tabs">
         <button
           className={activeTab === 'tab' ? 'active' : ''} 
           onClick={() => handleTabClick('tab')}>
-          CDE Masters
+          CDE Master
         </button>
         <button 
           className={activeTab === 'tab1' ? 'active' : ''} 

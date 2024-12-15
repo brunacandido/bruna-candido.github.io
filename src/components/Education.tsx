@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Education.scss';
 import plusLogo from '../assets/plus_logo.jpg'
 import ubsLogo from '../assets/ubs_logo.png'
-import ufscLogo from '../assets/ufsc.jpg'
+import ufscLogo from '../assets/ufsc.png'
 
 interface EducationItem {
   logo: string;
@@ -32,7 +32,7 @@ const educationData: EducationItem[] = [
   },
   {
     logo: ufscLogo,
-    university: 'UFSC',
+    university: 'Universidade Federal de Santa Catarina',
     degree: 'Bachelor\'s degree in Oceanography',
     period: '2017 - 2022',
     location: 'Florianopolis, Brazil',
@@ -43,7 +43,7 @@ const educationData: EducationItem[] = [
 const Education: React.FC = () => {
   return (
     <section id="education" className="education">
-      <h2>My Education</h2>
+      {/* <h2>My Education</h2> */}
       <div className="timeline">
         {educationData.map((item, index) => (
           <div key={index} className={`education-item ${item.position}`}>

@@ -3,7 +3,6 @@
   background-color: #263238;
   color: #ffffff;
   text-align: center;
-  // border-bottom: 2px solid #0099ff;
   width: 100%;
 
   h2 {
@@ -21,8 +20,8 @@
 
   .program-logo a img,
   .university-logos .university img {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     object-fit: contain;
     border-radius: 10%;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -43,7 +42,7 @@
 
     .university a {
       text-decoration: none;
-      color: #b0bec5;
+      color: #eff3f5;
 
       p {
         margin-top: 5px;
@@ -56,8 +55,37 @@
     max-width: 600px;
     font-size: 1rem;
     line-height: 1.5;
-    color: #b0bec5;
+    color: #eff3f5;
     text-align: center;
     margin-top: 20px;
   }
+
+  .logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  .logo {
+    max-width: 200px;
+    max-height: 200px;
+    object-fit: contain; 
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .logo-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  .logo:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+  }
+
 }
+

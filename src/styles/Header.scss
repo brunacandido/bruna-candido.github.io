@@ -2,12 +2,12 @@
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 10px 20px; /* Ajuste para tornar a barra mais fina */
+  padding: 10px 20px;
   background-color: #1e1e1e;
   color: #ffffff;
 
   .logo {
-    font-size: 1.6rem; /* Reduzido o tamanho da logo */
+    font-size: 1.6rem;
     font-weight: bold;
     color: #00bcd4;
   }
@@ -18,7 +18,7 @@
   }
 
   nav li {
-    margin: 0 15px; /* Reduzi o espaço entre os itens */
+    margin: 0 15px;
   }
 
   nav a {
@@ -49,6 +49,6 @@
 .about p {
   font-size: 1.25rem;
   line-height: 1.6;
-  color: #b0bec5;
+  color: #eff3f5;
 }
 

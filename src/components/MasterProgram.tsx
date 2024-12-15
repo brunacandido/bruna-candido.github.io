@@ -9,28 +9,29 @@ const MasterProgram: React.FC = () => {
   return (
     <section id="master-program" className="projects">
       {/* <div className='projects'> */}
-      <div className="program-content">
+      <div className="program-content row flex">
+        
+        <div className="university-logos">
         <div className="program-logo">
-          <a href="https://www.copernicus-master.com/" target="_blank" rel="noopener noreferrer">
-            <img src={cdeLogo} alt="Copernicus in Digital Earth Logo" />
+          <a href="https://www.master-cde.eu" target="_blank" rel="noopener noreferrer">
+            <img className="logo"src={cdeLogo} alt="Copernicus in Digital Earth Logo" />
           </a>
         </div>
-        <div className="university-logos">
           <div className="university">
             <a href="https://www.plus.ac.at/" target="_blank" rel="noopener noreferrer">
-              <img src={plusLogo} alt="University of Salzburg Logo" />
-              <p>Paris Lodron University of Salzburg</p>
+              <img className="logo"src={plusLogo} alt="University of Salzburg Logo" />
+              {/* <p>Paris Lodron University of Salzburg</p> */}
             </a>
           </div>
           <div className="university">
             <a href="https://www.univ-ubs.fr/" target="_blank" rel="noopener noreferrer">
-              <img src={ubsLogo} alt="University of Vannes Logo" />
-              <p>Université Bretagne Sud (UBS)</p>
+              <img className="logo"src={ubsLogo} alt="University of Vannes Logo" />
+              {/* <p>Université Bretagne Sud (UBS)</p> */}
             </a>
           </div>
           <div className="university">
-            <a href="https://www.univ-ubs.fr/" target="_blank" rel="noopener noreferrer">
-              <img src={coFoundedEU} alt="Cofounded EU Logo" />
+            <a href="https://erasmus-plus.ec.europa.eu/" target="_blank" rel="noopener noreferrer">
+              <img className="logo"src={coFoundedEU} alt="Cofounded EU Logo" />
             </a>
           </div>
         </div>

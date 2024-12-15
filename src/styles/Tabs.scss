@@ -11,7 +11,7 @@
     padding: 15px 30px;
     margin-right: 20px;
     background-color: transparent;
-    color: #b0bec5;
+    color: #eff3f5;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -33,7 +33,14 @@
     width: 100%;
     height: 2px;
   }
-  
+
+  .tabs button:disabled {
+    color: #607d8b; 
+    background-color: #37474f;
+    cursor: not-allowed; 
+    opacity: 0.6;
+    box-shadow: none;
+}
   .tab-content {
     background-color: #455a64;
     color: #ffffff; 
@@ -61,7 +68,7 @@
   }
   
   .tab-content .project p {
-    color: #b0bec5;
+    color: #eff3f5;
     font-size: 1rem;
   }
   

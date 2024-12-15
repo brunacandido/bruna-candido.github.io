@@ -212,7 +212,7 @@ cat <<EOL > ~/Documents/plus-2024-winter/portfolio/bruna-candido.github.io/src/s
 
   p {
     font-size: 1.25rem;
-    color: #b0bec5;
+    color: #eff3f5;
   }
 }
 EOL
@@ -236,7 +236,7 @@ cat <<EOL > ~/Documents/plus-2024-winter/portfolio/bruna-candido.github.io/src/s
   p {
     font-size: 1.25rem;
     line-height: 1.6;
-    color: #b0bec5;
+    color: #eff3f5;
   }
 }
 EOL
@@ -264,7 +264,7 @@ cat <<EOL > ~/Documents/plus-2024-winter/portfolio/bruna-candido.github.io/src/s
     }
 
     p {
-      color: #b0bec5;
+      color: #eff3f5;
       font-size: 1rem;
     }
 
@@ -296,7 +296,7 @@ cat <<EOL > ~/Documents/plus-2024-winter/portfolio/bruna-candido.github.io/src/s
   p {
     font-size: 1.25rem;
     line-height: 1.6;
-    color: #b0bec5;
+    color: #eff3f5;
   }
 }
 EOL
@@ -315,7 +315,7 @@ cat <<EOL > ~/Documents/plus-2024-winter/portfolio/bruna-candido.github.io/src/s
 
 .footer p {
   font-size: 1rem;
-  color: #b0bec5;
+  color: #eff3f5;
 }
 EOL
 

@@ -7,7 +7,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Education from './components/Education';
 import Tabs from './components/MasterProjectsTabs';
-import Skills from './components/skills';
+import Skills from './components/SkillsProgramming';
+import Experiences from './components/Experiences';
 
 const App: React.FC = () => {
   return (
@@ -16,9 +17,7 @@ const App: React.FC = () => {
       <Home />
       <About />
       <Tabs />
-      <Skills/>
-      <Education />
-      {/* <Experiences/> */}
+      <Experiences/>
       <Contact />
       <Footer />
     </div>

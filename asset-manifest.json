@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bruna-candido.github.io/static/css/main.d5a5f933.css",
-    "main.js": "/bruna-candido.github.io/static/js/main.adecec37.js",
+    "main.css": "/bruna-candido.github.io/static/css/main.45ad821e.css",
+    "main.js": "/bruna-candido.github.io/static/js/main.e526e0a5.js",
     "static/js/453.1407b060.chunk.js": "/bruna-candido.github.io/static/js/453.1407b060.chunk.js",
     "static/media/co_founded_EU.jpg": "/bruna-candido.github.io/static/media/co_founded_EU.b98356d2c094a719a356.jpg",
     "static/media/bruna-photo.jpg": "/bruna-candido.github.io/static/media/bruna-photo.762707309d93ab97e61e.jpg",
@@ -15,12 +15,12 @@
     "static/media/react.png": "/bruna-candido.github.io/static/media/react.3b5049ea7908e9da3ba0.png",
     "static/media/javascript.png": "/bruna-candido.github.io/static/media/javascript.e4a6603a50d997ebe438.png",
     "index.html": "/bruna-candido.github.io/index.html",
-    "main.d5a5f933.css.map": "/bruna-candido.github.io/static/css/main.d5a5f933.css.map",
-    "main.adecec37.js.map": "/bruna-candido.github.io/static/js/main.adecec37.js.map",
+    "main.45ad821e.css.map": "/bruna-candido.github.io/static/css/main.45ad821e.css.map",
+    "main.e526e0a5.js.map": "/bruna-candido.github.io/static/js/main.e526e0a5.js.map",
     "453.1407b060.chunk.js.map": "/bruna-candido.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5a5f933.css",
-    "static/js/main.adecec37.js"
+    "static/css/main.45ad821e.css",
+    "static/js/main.e526e0a5.js"
   ]
 }

@@ -24,6 +24,10 @@
     &:hover {
       overflow: auto;
     }
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
   .skills-block {
     display: flex;
@@ -114,6 +118,21 @@
         color: #eff3f5;
         margin-bottom: 10px;
       }
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      max-width: 400px;
+
+    }
+    @media (max-width: 480px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      max-width: 300px;
+
     }
   }
 }

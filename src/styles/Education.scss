@@ -41,6 +41,11 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
     
+    @media (max-width: 480px) {
+      width: 200px;
+
+    }
+    
     &:hover {
       background-color: #607d8b;
       transform: scale(1.05);
@@ -49,12 +54,19 @@
     &.left {
       align-self: flex-start;
       margin-right: 55%;
+      @media (max-width: 480px) {
+        align-self: center;
+      }
     }
 
     &.right {
       align-self: flex-end;
       margin-left: 55%; 
+      @media (max-width: 480px) {
+        align-self: center;
+      }
     }
+
 
     .university-logo {
       width: 100px;

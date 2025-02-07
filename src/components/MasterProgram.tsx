@@ -12,6 +12,11 @@ const MasterProgram: React.FC = () => {
       <div className="program-content row flex">
         
         <div className="university-logos">
+        <div className="university">
+            <a href="https://erasmus-plus.ec.europa.eu/" target="_blank" rel="noopener noreferrer">
+              <img className="logo"src={coFoundedEU} alt="Cofounded EU Logo" />
+            </a>
+          </div>
         <div className="program-logo">
           <a href="https://www.master-cde.eu" target="_blank" rel="noopener noreferrer">
             <img className="logo"src={cdeLogo} alt="Copernicus in Digital Earth Logo" />
@@ -29,11 +34,7 @@ const MasterProgram: React.FC = () => {
               {/* <p>Université Bretagne Sud (UBS)</p> */}
             </a>
           </div>
-          <div className="university">
-            <a href="https://erasmus-plus.ec.europa.eu/" target="_blank" rel="noopener noreferrer">
-              <img className="logo"src={coFoundedEU} alt="Cofounded EU Logo" />
-            </a>
-          </div>
+          
         </div>
       </div>
       {/* </div> */}

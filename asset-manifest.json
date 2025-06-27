@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bruna-candido.github.io/static/css/main.d7a59bc8.css",
-    "main.js": "/bruna-candido.github.io/static/js/main.92f73031.js",
+    "main.js": "/bruna-candido.github.io/static/js/main.fdf8e6b4.js",
     "static/js/453.1407b060.chunk.js": "/bruna-candido.github.io/static/js/453.1407b060.chunk.js",
     "static/media/dataCubePoster.png": "/bruna-candido.github.io/static/media/dataCubePoster.a08d8ef7ec53061e95fd.png",
     "static/media/RioGrandeDoSulFlood.png": "/bruna-candido.github.io/static/media/RioGrandeDoSulFlood.1fa6324c3894def5d039.png",
@@ -9,6 +9,7 @@
     "static/media/Salzburg_Spots.png": "/bruna-candido.github.io/static/media/Salzburg_Spots.cbb617380a3b90150ac6.png",
     "static/media/bruna-photo.jpg": "/bruna-candido.github.io/static/media/bruna-photo.762707309d93ab97e61e.jpg",
     "static/media/eCognitionSegmentation.png": "/bruna-candido.github.io/static/media/eCognitionSegmentation.9c0d63b0f93446b264e2.png",
+    "static/media/SuperComputer.jpg": "/bruna-candido.github.io/static/media/SuperComputer.dbb5e17e12281f284292.jpg",
     "static/media/SAR.png": "/bruna-candido.github.io/static/media/SAR.e972282268dd3956060d.png",
     "static/media/ufsc.png": "/bruna-candido.github.io/static/media/ufsc.078718683f78205366fa.png",
     "static/media/matlab.png": "/bruna-candido.github.io/static/media/matlab.5ae8d3181367b6b2272c.png",
@@ -21,11 +22,11 @@
     "static/media/javascript.png": "/bruna-candido.github.io/static/media/javascript.e4a6603a50d997ebe438.png",
     "index.html": "/bruna-candido.github.io/index.html",
     "main.d7a59bc8.css.map": "/bruna-candido.github.io/static/css/main.d7a59bc8.css.map",
-    "main.92f73031.js.map": "/bruna-candido.github.io/static/js/main.92f73031.js.map",
+    "main.fdf8e6b4.js.map": "/bruna-candido.github.io/static/js/main.fdf8e6b4.js.map",
     "453.1407b060.chunk.js.map": "/bruna-candido.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7a59bc8.css",
-    "static/js/main.92f73031.js"
+    "static/js/main.fdf8e6b4.js"
   ]
 }

@@ -7,6 +7,7 @@ import AdvancedRemoteSensing from './Projects/AdvancedRemoteSensing';
 import SpatialDatabases from './Projects/SpatialDatabases';
 import '../styles/Projects.scss';
 import SpatialAnalysis from './Projects/SpatialAnalysis';
+import ViennaTripReport from './Projects/ViennaTripReport';
 
 function Tabs() {
   const [activeTab, setActiveTab] = useState('tab');
@@ -45,6 +46,11 @@ function Tabs() {
           onClick={() => handleTabClick('tab4')}>
           Advanced Remote Sensing
         </button>
+        <button 
+          className={activeTab === 'tab5' ? 'active' : ''} 
+          onClick={() => handleTabClick('tab5')}>
+          Vienna Trip Report
+        </button>
       </div>
 
       <div className="tab-content">
@@ -63,6 +69,9 @@ function Tabs() {
         )}
         {activeTab === 'tab4' && (
             <AdvancedRemoteSensing/>
+        )}
+        {activeTab === 'tab5' && (
+            <ViennaTripReport/>
         )}
       </div>
     </section>

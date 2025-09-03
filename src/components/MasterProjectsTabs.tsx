@@ -9,6 +9,7 @@ import '../styles/Projects.scss';
 import SpatialAnalysis from './Projects/SpatialAnalysis';
 import ViennaTripReport from './Projects/ViennaTripReport';
 import BipStorymap from './Projects/BipStorymap';
+import OilSpillSegmentation from './Projects/OilSpillSegmentation';
 
 function Tabs() {
   const [activeTab, setActiveTab] = useState('tab');
@@ -57,6 +58,11 @@ function Tabs() {
           onClick={() => handleTabClick('tab6')}>
           Quantifying Vulnerability Report
         </button>
+        <button 
+          className={activeTab === 'tab7' ? 'active' : ''} 
+          onClick={() => handleTabClick('tab7')}>
+          Oil spill segmentation
+        </button>
       </div>
 
       <div className="tab-content">
@@ -81,6 +87,9 @@ function Tabs() {
         )}
         {activeTab === 'tab6' && (
             <BipStorymap/>
+        )}
+        {activeTab === 'tab7' && (
+            <OilSpillSegmentation/>
         )}
       </div>
     </section>

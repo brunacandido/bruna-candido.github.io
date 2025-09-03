@@ -61,7 +61,7 @@ function Tabs() {
         <button 
           className={activeTab === 'tab7' ? 'active' : ''} 
           onClick={() => handleTabClick('tab7')}>
-          Oil spill segmentation
+          Internship at CMCC
         </button>
       </div>
 

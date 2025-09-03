@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bruna-candido.github.io/static/css/main.d7a59bc8.css",
-    "main.js": "/bruna-candido.github.io/static/js/main.675b0429.js",
+    "main.js": "/bruna-candido.github.io/static/js/main.9de5d0c8.js",
     "static/js/453.1407b060.chunk.js": "/bruna-candido.github.io/static/js/453.1407b060.chunk.js",
     "static/media/dataCubePoster.png": "/bruna-candido.github.io/static/media/dataCubePoster.a08d8ef7ec53061e95fd.png",
     "static/media/RioGrandeDoSulFlood.png": "/bruna-candido.github.io/static/media/RioGrandeDoSulFlood.1fa6324c3894def5d039.png",
@@ -11,8 +11,11 @@
     "static/media/eCognitionSegmentation.png": "/bruna-candido.github.io/static/media/eCognitionSegmentation.9c0d63b0f93446b264e2.png",
     "static/media/SuperComputer.jpg": "/bruna-candido.github.io/static/media/SuperComputer.dbb5e17e12281f284292.jpg",
     "static/media/SAR.png": "/bruna-candido.github.io/static/media/SAR.e972282268dd3956060d.png",
+    "static/media/oil-spill-segmentation-presentation.png": "/bruna-candido.github.io/static/media/oil-spill-segmentation-presentation.97d8df84923ee43dbcae.png",
     "static/media/ufsc.png": "/bruna-candido.github.io/static/media/ufsc.078718683f78205366fa.png",
     "static/media/matlab.png": "/bruna-candido.github.io/static/media/matlab.5ae8d3181367b6b2272c.png",
+    "static/media/oil-spill-segmentation.png": "/bruna-candido.github.io/static/media/oil-spill-segmentation.b10ec4b38948467d4c6f.png",
+    "static/media/internship-report-image.png": "/bruna-candido.github.io/static/media/internship-report-image.2a7988a37c12132c8937.png",
     "static/media/gee.png": "/bruna-candido.github.io/static/media/gee.99df486d7496c5677692.png",
     "static/media/plus_logo.jpg": "/bruna-candido.github.io/static/media/plus_logo.d950150375ed9dd52fe6.jpg",
     "static/media/qgis.png": "/bruna-candido.github.io/static/media/qgis.ec284fae3639d3a1e286.png",
@@ -23,11 +26,11 @@
     "static/media/javascript.png": "/bruna-candido.github.io/static/media/javascript.e4a6603a50d997ebe438.png",
     "index.html": "/bruna-candido.github.io/index.html",
     "main.d7a59bc8.css.map": "/bruna-candido.github.io/static/css/main.d7a59bc8.css.map",
-    "main.675b0429.js.map": "/bruna-candido.github.io/static/js/main.675b0429.js.map",
+    "main.9de5d0c8.js.map": "/bruna-candido.github.io/static/js/main.9de5d0c8.js.map",
     "453.1407b060.chunk.js.map": "/bruna-candido.github.io/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7a59bc8.css",
-    "static/js/main.675b0429.js"
+    "static/js/main.9de5d0c8.js"
   ]
 }

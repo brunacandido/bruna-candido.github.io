@@ -8,6 +8,7 @@ import SpatialDatabases from './Projects/SpatialDatabases';
 import '../styles/Projects.scss';
 import SpatialAnalysis from './Projects/SpatialAnalysis';
 import ViennaTripReport from './Projects/ViennaTripReport';
+import AI4EOReport from './Projects/AI4EOReport';
 import BipStorymap from './Projects/BipStorymap';
 import OilSpillSegmentation from './Projects/OilSpillSegmentation';
 
@@ -63,6 +64,11 @@ function Tabs() {
           onClick={() => handleTabClick('tab7')}>
           Internship at CMCC
         </button>
+        <button 
+          className={activeTab === 'tab8' ? 'active' : ''} 
+          onClick={() => handleTabClick('tab8')}>
+          AI4EO Report
+        </button>
       </div>
 
       <div className="tab-content">
@@ -90,6 +96,9 @@ function Tabs() {
         )}
         {activeTab === 'tab7' && (
             <OilSpillSegmentation/>
+        )}
+        {activeTab === 'tab8' && (
+            <AI4EOReport/>
         )}
       </div>
     </section>

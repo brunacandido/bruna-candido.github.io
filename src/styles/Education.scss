@@ -1,101 +1,93 @@
 .education {
-  padding: 50px;
-  background-color: #263238;
-  color: #ffffff;
   width: 100%;
-  text-align: center;
-
-  h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    color: #00bcd4;
-  }
 
   .timeline {
     position: relative;
-    margin: 20px auto;
-    width: 80%;
+    max-width: 700px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: var(--space-4);
 
     &::before {
       content: '';
       position: absolute;
       top: 0;
-      left: 50%;
-      width: 2px;
+      left: 22px;
+      width: 1px;
       height: 100%;
-      background-color: #0099ff;
-      transform: translateX(-50%);
+      background-color: var(--color-border);
     }
   }
 
   .education-item {
     position: relative;
-    width: 45%;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    background-color: #455a64;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease-in-out;
-    
-    @media (max-width: 480px) {
-      width: 200px;
+    padding: var(--space-5);
+    padding-left: calc(var(--space-5) + 44px);
+    background-color: var(--color-surface-raised);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    transition: border-color var(--transition-base);
 
-    }
-    
-    &:hover {
-      background-color: #607d8b;
-      transform: scale(1.05);
-    }
-
-    &.left {
-      align-self: flex-start;
-      margin-right: 55%;
-      @media (max-width: 480px) {
-        align-self: center;
-      }
-    }
-
+    // Override old left/right positioning
+    &.left,
     &.right {
-      align-self: flex-end;
-      margin-left: 55%; 
-      @media (max-width: 480px) {
-        align-self: center;
-      }
+      align-self: auto;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
     }
 
+    &:hover { border-color: var(--color-border-strong); }
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 17px;
+      top: var(--space-5);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: var(--color-primary);
+      border: 2px solid var(--color-surface-raised);
+      box-shadow: 0 0 0 1px var(--color-primary);
+    }
 
     .university-logo {
-      width: 100px;
-      height: 100px;
-      margin-bottom: 15px;
-      border-radius: 5px;
-      display: block;
-      margin: 0 auto;
+      width: 52px;
+      height: 52px;
       object-fit: contain;
       background: #fff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: var(--space-2);
+      border-radius: var(--radius-md);
+      margin-bottom: var(--space-4);
     }
 
     .education-details {
       h3 {
-        color: #00bcd4;
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-        text-align: center;
+        font-size: var(--text-lg);
+        font-weight: 600;
+        color: var(--color-ink);
+        margin-bottom: var(--space-2);
+        text-align: left;
+        line-height: 1.3;
       }
 
       p {
-        color: #eff3f5;
-        font-size: 1rem;
-        margin: 5px 0;
-        text-align: center;
+        font-size: var(--text-sm);
+        color: var(--color-ink-muted);
+        margin-bottom: var(--space-1);
+        text-align: left;
+        line-height: 1.5;
       }
     }
+  }
+}
+
+@media (max-width: 480px) {
+  .education .timeline::before { display: none; }
+  .education .education-item {
+    padding-left: var(--space-5);
+    &::before { display: none; }
   }
 }

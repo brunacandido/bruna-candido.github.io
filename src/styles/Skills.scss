@@ -1,138 +1,115 @@
 .skills {
-  padding: 20;
+  padding: var(--space-6) 0;
+  width: 100%;
   text-align: center;
 
   h2 {
-    font-size: 2rem;
-    margin: 20px 0;
-    color: #00bcd4;
+    font-size: var(--text-2xl);
+    font-weight: 600;
+    color: var(--color-ink);
+    letter-spacing: -0.02em;
+    margin-bottom: var(--space-5);
   }
 
   .skills-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: var(--space-6);
+    margin: 0 auto;
+    max-width: var(--content-max);
+    width: 100%;
     align-items: stretch;
-    margin: 20px auto;
-    width: 90%;
-    background-color: #37474f;
-    border-radius: 10px;
-    padding: 20px;
-    overflow: hidden;
-    position: relative;
-  
-    &:hover {
-      overflow: auto;
-    }
-    @media (max-width: 768px) {
-      flex-wrap: wrap;
-      justify-content: center;
+
+    @media (max-width: 900px) {
+      flex-direction: column;
     }
   }
+
   .skills-block {
+    flex: 1;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    margin: 20px auto;
-    width: 90%;    
-    height: 80%;
-    border-radius: 10px; 
+    gap: var(--space-2);
+    background-color: var(--color-surface-raised);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
     overflow: hidden;
-    padding: 20px;
   }
 
   .skills-icons {
     display: flex;
     flex-direction: column;
-    gap: 2px;
-    background-color: #455a64;
-    padding: 10px 0;
-    border-radius: 10px 0 0 10px;
+    background-color: var(--color-surface);
+    border-right: 1px solid var(--color-border);
+    padding: var(--space-3) var(--space-2);
+    gap: var(--space-1);
 
     .skill-icon {
-      background-color: transparent;
-      border: none;
-      padding: 10px;
-      border-radius: 5px;
-      text-align: center;
+      background: none;
+      border: 1px solid transparent;
+      padding: var(--space-2);
+      border-radius: var(--radius-md);
       cursor: pointer;
-      transition: all 0.3s ease;
-      width: 80px;
-      height: 80px;
+      width: 64px;
+      height: 64px;
       display: flex;
-      flex-direction: column;
       align-items: center;
       justify-content: center;
+      transition:
+        background-color var(--transition-fast),
+        border-color var(--transition-fast);
 
       img {
-        width: 50px;
-        height: 50px;
+        width: 36px;
+        height: 36px;
         object-fit: contain;
-        margin-bottom: 10px;
-      }
-
-      p {
-        color: #263238;
-        font-weight: bold;
-        margin: 0;
       }
 
       &:hover {
-        transform: scale(1.05);
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        background-color: oklch(0.22 0 0);
+        border-color: var(--color-border);
       }
 
       &.active {
-        background-color: #556f7c;
-        transform: scale(1);
-        p {
-          color: #ffffff;
-        }
+        background-color: oklch(0.22 0 0);
+        border-color: var(--color-primary);
+
+        p { color: var(--color-ink); }
+      }
+
+      p {
+        display: none;
       }
     }
   }
 
   .skill-details {
     flex: 1;
-    background-color: #556f7c;
-    padding: 20px;
+    padding: var(--space-5) var(--space-5);
     text-align: left;
-    border-radius: 0 10px 10px 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 600px;
+    justify-content: flex-start;
+    min-width: 0;
+
     h3 {
-      font-size: 1.5rem;
-      color: #00bcd4;
-      margin-bottom: 15px;
+      font-size: var(--text-lg);
+      font-weight: 600;
+      color: var(--color-ink);
+      margin-bottom: var(--space-4);
     }
 
     ul {
       list-style: disc;
-      padding-left: 20px;
+      padding-left: var(--space-5);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-3);
 
       li {
-        font-size: 1rem;
-        color: #eff3f5;
-        margin-bottom: 10px;
+        font-size: var(--text-sm);
+        color: var(--color-ink-muted);
+        line-height: 1.6;
       }
-    }
-    @media (max-width: 768px) {
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-
-      max-width: 400px;
-
-    }
-    @media (max-width: 480px) {
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
-      max-width: 300px;
-
     }
   }
 }

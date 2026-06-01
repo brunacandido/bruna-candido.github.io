@@ -1,18 +1,20 @@
 .section {
-    width: 100%;
-    padding: 50px;
-    text-align: center;
-    border-bottom: 2px solid #0099ff;
-  }
-  
+  width: 100%;
+  padding: var(--section-py) var(--section-px);
+
   .section-title {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+    font-size: var(--text-4xl);
+    font-weight: 700;
+    color: var(--color-ink);
+    letter-spacing: -0.03em;
+    margin-bottom: var(--space-6);
+    line-height: 1.05;
   }
-  
+
   .section-content {
-    font-size: 1.25rem;
-    line-height: 1.6;
-    color: #eff3f5;
+    font-size: var(--text-lg);
+    line-height: 1.7;
+    color: var(--color-ink-muted);
+    max-width: 65ch;
   }
-  
+}

@@ -1,6 +1,12 @@
 import React from 'react';
 import '../styles/About.scss';
 
+const techStack = [
+  'Sentinel-1', 'Sentinel-2', 'CMEMS', 'Landsat',
+  'PyTorch', 'scikit-learn', 'Rasterio', 'GDAL',
+  'GeoPandas', 'Xarray', 'Google Earth Engine',
+];
+
 const About: React.FC = () => {
   return (
     <section id="about" className="about">
@@ -8,28 +14,34 @@ const About: React.FC = () => {
         <div className="about-text">
           <h2 className="about-heading">About me</h2>
           <p>
-            I'm Bruna, an oceanographer turned software developer with a focus on environmental
-            data and geospatial systems. My work bridges ocean science, remote sensing, and
-            applied computation.
+            I'm Bruna, an oceanographer and geodata scientist applying machine learning
+            to satellite imagery and environmental monitoring. My work sits at the intersection
+            of ocean science, remote sensing, and AI.
           </p>
           <p>
-            Currently enrolled in the Copernicus Master in Digital Earth, an Erasmus Mundus
-            Joint Master co-funded by the European Union, following the Geodata Science track
-            across Salzburg and Vannes.
+            Currently completing the Copernicus Master in Digital Earth (Erasmus Mundus), Geodata
+            Science track, across Salzburg and Vannes. Projects include SAR-based oil spill
+            detection with deep learning, land cover classification, and geospatial data analysis
+            with Python and cloud platforms.
           </p>
+          <div className="about-tags">
+            {techStack.map(tag => (
+              <span key={tag} className="about-tag">{tag}</span>
+            ))}
+          </div>
         </div>
         <div className="about-meta">
           <div className="about-stat">
             <strong>Brazil → Austria → France</strong>
-            <span>International education path</span>
+            <span>International research path</span>
           </div>
           <div className="about-stat">
             <strong>3+ years</strong>
             <span>Software development, Fractal Engenharia</span>
           </div>
           <div className="about-stat">
-            <strong>Oceanography + Geodata</strong>
-            <span>Environmental science and engineering</span>
+            <strong>SAR · Deep Learning · EO</strong>
+            <span>Core technical focus areas</span>
           </div>
         </div>
       </div>

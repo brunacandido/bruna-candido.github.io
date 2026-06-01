@@ -11,42 +11,41 @@ const skillsData = [
     logo: pythonLogo,
     name: 'Python',
     experience: [
-      'Used for data analysis and visualization in hydrology projects.',
-      'Developed scripts for geospatial data processing.',
-      'Automated workflows using libraries such as Pandas and NumPy.',
+      'Applied scikit-learn and PyTorch for deep learning segmentation on Sentinel-1 SAR imagery.',
+      'Geospatial data processing with Rasterio, GDAL, GeoPandas, and Xarray.',
+      'Ocean and environmental data analysis with NumPy, Pandas, and Matplotlib.',
     ],
   },
   {
     id: 'matlab',
     logo: matlab,
-    name: 'MatLab',
+    name: 'MATLAB',
     experience: [
-      'Used for data analysis, visualization, and numerical simulations in hydrology and oceanography projects.',
-      'Developed scripts for processing large datasets and automating repetitive tasks.',
-      'Created custom functions to analyze environmental data and generate meaningful insights.'    
-      ],
+      'Oceanographic data analysis and numerical modeling for research and coursework.',
+      'Time-series processing of tidal, wave, and hydrodynamic monitoring data.',
+      'Custom analysis functions for environmental datasets and signal processing.',
+    ],
   },
   {
     id: 'javascript',
     logo: javascriptLogo,
     name: 'JavaScript',
     experience: [
-      'Built dynamic web applications using JavaScript and reactJS framework.',
-      'Integrated RESTful APIs and managed client-side logic.',
-      'Optimized website performance and responsiveness.',
+      'Built full-stack applications at Fractal Engenharia using React and TypeScript.',
+      'Integrated geospatial APIs and mapping libraries for environmental dashboards.',
+      'RESTful API integration and client-side state management in production systems.',
     ],
   },
   {
     id: 'react',
     logo: reactLogo,
-    name: 'ReactJS',
+    name: 'React / TS',
     experience: [
-      'Developed reusable and responsive UI components.',
-      'Used React Router for dynamic navigation and state management with Context API.',
-      'Collaborated on front-end architecture for large-scale web platforms.',
+      'Component libraries and responsive UIs for environmental monitoring platforms.',
+      'React Router, Context API, and hooks for complex multi-page applications.',
+      'TypeScript with strong typing for maintainable, production-grade frontends.',
     ],
   },
-
 ];
 
 const SkillsProgramming: React.FC = () => {
@@ -62,6 +61,7 @@ const SkillsProgramming: React.FC = () => {
               key={skill.id}
               className={`skill-icon ${activeSkill === skill.id ? 'active' : ''}`}
               onClick={() => setActiveSkill(skill.id)}
+              aria-label={skill.name}
             >
               <img src={skill.logo} alt={`${skill.name} logo`} />
             </button>
@@ -83,8 +83,7 @@ const SkillsProgramming: React.FC = () => {
           )}
         </div>
       </div>
-      </div>
-
+    </div>
   );
 };
 

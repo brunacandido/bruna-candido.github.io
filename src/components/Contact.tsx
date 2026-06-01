@@ -1,14 +1,25 @@
 import React from 'react';
 import '../styles/Contact.scss';
 
+const interests = [
+  'Geospatial AI & Earth Observation',
+  'Remote Sensing & Environmental Monitoring',
+  'Oceanography & Marine Science',
+];
+
 const Contact: React.FC = () => {
   return (
     <section id="contact" className="contact">
       <div className="contact-inner">
         <h2 className="contact-heading">Get in touch</h2>
         <p className="contact-sub">
-          Open to geospatial roles, research collaborations, and software opportunities.
+          Open to research and engineering roles in AI for Earth Observation,
+          satellite data analysis, and environmental intelligence.
         </p>
+        <ul className="contact-interests">
+          {interests.map(i => <li key={i}><span>{i}</span></li>)}
+        </ul>
+        <p className="contact-availability">Available from September 2026.</p>
         <a href="mailto:brunscandido@gmail.com" className="contact-email">
           brunscandido@gmail.com
         </a>

@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
 import arcgisLogo from '../assets/arcgispro.png';
 import qgisLogo from '../assets/qgis.png';
-// import snapLogo from '../assets/snap-icon.jpg';
 import geeLogo from '../assets/gee.png';
-
 import '../styles/Skills.scss';
 
 const skillsData = [
@@ -12,20 +10,19 @@ const skillsData = [
     logo: qgisLogo,
     name: 'QGIS',
     experience: [
-      'Processed and visualized geospatial datasets for environmental monitoring.',
-      'Created custom map layers for project presentations.',
-      'Performed geostatistical analyses and exported professional-grade maps.',
+      'Multi-spectral and SAR raster analysis for coastal and land cover monitoring.',
+      'Custom cartographic layouts for scientific presentations and project reports.',
+      'Geostatistical tools: spatial interpolation, DEM analysis, and watershed delineation.',
     ],
   },
   {
     id: 'arcgis',
     logo: arcgisLogo,
-    name: 'ArcGis Pro',
+    name: 'ArcGIS Pro',
     experience: [
-      'Utilized for geospatial data analysis, mapping, and visualization in environmental and hydrology projects.',
-      'Created and managed detailed map layouts, including spatial data layers, symbology, and annotations.',
-      'Performed geoprocessing tasks such as spatial joins, interpolation, buffer analysis, and terrain modeling.',
-      'Delimited hydrological basins using digital elevation models (DEMs) and hydrology tools for watershed analysis.'
+      'Spatial joins, buffer analysis, and terrain modeling for hydrological studies.',
+      'Watershed delineation using DEMs and ArcHydro tools for basin analysis.',
+      'Cartographic outputs for environmental monitoring and impact assessments.',
     ],
   },
   {
@@ -33,21 +30,11 @@ const skillsData = [
     logo: geeLogo,
     name: 'Google Earth Engine',
     experience: [
-      'Developed scripts to analyze environmental changes, such as land cover classification and vegetation monitoring, using JavaScript and Python APIs.',
-      'Developed interactive widgets for data visualization and user engagement, enhancing the accessibility of spatial analysis results.'
+      'Time-series analysis of Sentinel-2 multispectral imagery for vegetation and land cover change detection.',
+      'SAR-based water body mapping and flood monitoring from Sentinel-1 data.',
+      'Interactive EO applications deployed via GEE JavaScript and Python APIs.',
     ],
   },
-  // {
-  //   id: 'snap',
-  //   logo: snapLogo,
-  //   name: 'SNAP ESA',
-  //   experience: [
-  //     'Built dynamic web applications using vanilla JavaScript and modern frameworks.',
-  //     'Integrated RESTful APIs and managed client-side logic.',
-  //     'Optimized website performance and responsiveness.',
-  //   ],
-  // },
-
 ];
 
 const SkillsSoftwares: React.FC = () => {
@@ -63,6 +50,7 @@ const SkillsSoftwares: React.FC = () => {
               key={skill.id}
               className={`skill-icon ${activeSkill === skill.id ? 'active' : ''}`}
               onClick={() => setActiveSkill(skill.id)}
+              aria-label={skill.name}
             >
               <img src={skill.logo} alt={`${skill.name} logo`} />
             </button>
@@ -84,8 +72,7 @@ const SkillsSoftwares: React.FC = () => {
           )}
         </div>
       </div>
-      </div>
-
+    </div>
   );
 };
 

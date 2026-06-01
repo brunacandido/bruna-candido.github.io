@@ -21,7 +21,7 @@ const Header: React.FC = () => {
         <ul>
           <li><a href="#home" onClick={() => setMenuOpen(false)}>Home</a></li>
           <li><a href="#about" onClick={() => setMenuOpen(false)}>About</a></li>
-          <li><a href="#master-program-tabs" onClick={() => setMenuOpen(false)}>Projects</a></li>
+          <li><a href="#featured-project" onClick={() => setMenuOpen(false)}>Projects</a></li>
           <li><a href="#experiences" onClick={() => setMenuOpen(false)}>Experience</a></li>
           <li><a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a></li>
         </ul>

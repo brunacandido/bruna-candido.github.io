@@ -3,11 +3,10 @@ import './styles/App.scss';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
+import FeaturedProject from './components/FeaturedProject';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Education from './components/Education';
 import Tabs from './components/MasterProjectsTabs';
-import Skills from './components/SkillsProgramming';
 import Experiences from './components/Experiences';
 
 const App: React.FC = () => {
@@ -16,8 +15,9 @@ const App: React.FC = () => {
       <Header />
       <Home />
       <About />
+      <FeaturedProject />
       <Tabs />
-      <Experiences/>
+      <Experiences />
       <Contact />
       <Footer />
     </div>

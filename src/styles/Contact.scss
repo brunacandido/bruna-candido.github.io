@@ -1,6 +1,6 @@
 .contact {
   padding: var(--section-py) var(--section-px);
-  background-color: var(--color-bg);
+  background-color: var(--color-surface);
   width: 100%;
 
   .contact-inner {
@@ -22,10 +22,39 @@
     font-size: var(--text-lg);
     color: var(--color-ink-muted);
     line-height: 1.65;
-    margin-bottom: var(--space-8);
+    margin-bottom: var(--space-6);
     max-width: 40ch;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .contact-interests {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-2);
+    margin-bottom: var(--space-5);
+
+    li { display: contents; }
+
+    span {
+      display: inline-flex;
+      padding: var(--space-2) var(--space-4);
+      background-color: oklch(0.64 0.185 230 / 0.08);
+      border: 1px solid oklch(0.64 0.185 230 / 0.22);
+      color: oklch(0.72 0.185 230);
+      font-size: var(--text-sm);
+      font-weight: 500;
+      border-radius: var(--radius-full);
+      white-space: nowrap;
+    }
+  }
+
+  .contact-availability {
+    font-size: var(--text-sm);
+    color: var(--color-ink-dim);
+    margin-bottom: var(--space-8);
+    letter-spacing: 0.01em;
   }
 
   .contact-email {
@@ -35,7 +64,7 @@
     color: var(--color-primary);
     text-decoration: none;
     padding-bottom: 2px;
-    border-bottom: 1px solid oklch(0.76 0.148 57 / 0.4);
+    border-bottom: 1px solid oklch(0.64 0.185 230 / 0.45);
     margin-bottom: var(--space-8);
     transition:
       color var(--transition-fast),

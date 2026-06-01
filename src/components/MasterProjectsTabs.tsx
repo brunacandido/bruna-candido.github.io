@@ -21,13 +21,13 @@ function Tabs() {
 
   return (
     <section id="master-program-tabs" className="master-program border-bottom">
-      <h2>CDE Projects</h2>
+      <h2>Research Projects</h2>
 
       <div className="tabs">
         <button
-          className={activeTab === 'tab' ? 'active' : ''} 
+          className={activeTab === 'tab' ? 'active' : ''}
           onClick={() => handleTabClick('tab')}>
-          CDE Master
+          Copernicus Master
         </button>
         <button 
           className={activeTab === 'tab1' ? 'active' : ''} 
@@ -62,7 +62,7 @@ function Tabs() {
         <button 
           className={activeTab === 'tab7' ? 'active' : ''} 
           onClick={() => handleTabClick('tab7')}>
-          Internship at CMCC
+          Oil Spill Segmentation
         </button>
         <button 
           className={activeTab === 'tab8' ? 'active' : ''} 
